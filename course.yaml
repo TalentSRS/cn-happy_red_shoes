@@ -8,5 +8,8 @@ description: Chinese children's story about wandering red shoes.
 image: red_shoes.jpg
 units:
  - title: 快乐的小红鞋
+   content: images.md
+   stencils: images.yaml
+ - title: 快乐的小红鞋 - Transcript
    content: cn_story.happy_red_shoes.txt
    stencils: cn_story.happy_red_shoes.txt.yaml
