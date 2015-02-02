@@ -123,6 +123,11 @@
   - I miss you.
   type: chinese
   comment: ! 'Covers: 想念. Cost: 1.994104231429356e-5'
+- chinese: 我想变成你。
+  english:
+  - I want to be you.
+  type: chinese
+  comment: ! 'Covers: 变成. Cost: 1.994104231429356e-5'
 - chinese: 我一直在想你。
   english:
   - I think of you all the time.
@@ -231,11 +236,6 @@
   - You said nothing.
   type: chinese
   comment: ! 'Covers: 都. Cost: 0.0'
-- chinese: 我没朋友帮我。
-  english:
-  - I have no friends to help me.
-  type: chinese
-  comment: ! 'Covers: 帮. Cost: 1.994104231429356e-5'
 - chinese: 我们都睡着了。
   english:
   - We all fell asleep.
@@ -296,11 +296,6 @@
   - Does he live here?
   type: chinese
   comment: ! 'Covers: 住. Cost: 6.223859788886675e-4'
-- chinese: 我们完成了吗？
-  english:
-  - Are we done?
-  type: chinese
-  comment: ! 'Covers: 成了. Cost: 1.3462392805697285e-4'
 - chinese: 我女儿喜欢跳绳。
   english:
   - My daughter loves jumping rope.
@@ -336,56 +331,41 @@
   - I'm going to lie down.
   type: chinese
   comment: ! 'Covers: 躺. Cost: 1.994104231429356e-5'
-- chinese: 你上哪去？
+- chinese: 我躺在草地上。
   english:
-  - Where are you going?
+  - I lie on the grass.
   type: chinese
-  comment: ! 'Covers: 上. Cost: 1.2714234857346286e-3'
-- chinese: 如果我是你，我会帮他一把。
-  english:
-  - If I were in your place, I would lend him a hand.
-  type: chinese
-  comment: ! 'Covers: 把. Cost: 4.3899312536765673e-4'
-- chinese: 他在生你的气。
-  english:
-  - He is angry with you.
-  type: chinese
-  comment: ! 'Covers: 气. Cost: 5.768010613139528e-3'
+  comment: ! 'Covers: 草地. Cost: 1.994104231429356e-5'
 - chinese: 他怕自己的影子。
   english:
   - He is afraid of his own shadow.
   type: chinese
   comment: ! 'Covers: 影子. Cost: 7.633005114113427e-3'
-- chinese: 帮我看会儿孩子。
-  english:
-  - Keep an eye on the child for me for a moment.
-  type: chinese
-  comment: ! 'Covers: 儿. Cost: 9.007467190300758e-4'
-- chinese: 他把球扔了。
-  english:
-  - He threw the ball.
-  type: chinese
-  comment: ! 'Covers: 扔. Cost: 4.710981297404249e-3'
 - chinese: 你想走的时候就走吧。
   english:
   - Go when you want.
   type: chinese
   comment: ! 'Covers: 时候. Cost: 1.7284531036103928e-4'
+- chinese: 我带你去吧。
+  english:
+  - I'll take you there.
+  type: chinese
+  comment: ! 'Covers: 带. Cost: 1.7284531036103928e-4'
 - chinese: 让我们看看吧。
   english:
   - Let's take a look.
   type: chinese
   comment: ! 'Covers: 看看. Cost: 2.7095351250585936e-4'
+- chinese: 让我说完。
+  english:
+  - Let me finish.
+  type: chinese
+  comment: ! 'Covers: 完. Cost: 2.7095351250585936e-4'
 - chinese: 你真的吃得下这东西?
   english:
   - You're seriously going to eat this?
   type: chinese
   comment: ! 'Covers: 下. Cost: 1.2017353057815485e-3'
-- chinese: 他可能已经好几天没吃东西了。
-  english:
-  - He might have not eaten for days.
-  type: chinese
-  comment: ! 'Covers: 几天. Cost: 1.2017353057815485e-3'
 - chinese: 小心脚下。
   english:
   - Watch your step.
@@ -396,6 +376,11 @@
   - Have fun.
   type: chinese
   comment: ! 'Covers: 玩. Cost: 0.0'
+- chinese: 马吃草。
+  english:
+  - Horses eat grass.
+  type: chinese
+  comment: ! 'Covers: 草. Cost: 4.935590543408519e-3'
 - chinese: 我想吃点甜的东西。
   english:
   - I feel like eating something sweet.
@@ -416,11 +401,6 @@
   - He bought himself a dog.
   type: chinese
   comment: ! 'Covers: 狗. Cost: 0.0'
-- chinese: 马吃草。
-  english:
-  - Horses eat grass.
-  type: chinese
-  comment: ! 'Covers: 草. Cost: 4.935590543408519e-3'
 - chinese: 这个比那个更小。
   english:
   - This is smaller than that.
@@ -451,11 +431,21 @@
   - Take off your socks, please.
   type: chinese
   comment: ! 'Covers: 脱下. Cost: 6.389776357827476e-2'
-- chinese: 我们昨天发出了邀请。
+- chinese: 不要发出声音。
   english:
-  - We've sent the invitations yesterday.
+  - Don't make a noise.
   type: chinese
-  comment: ! 'Covers: 发出. Cost: 1.260716086737267e-2'
+  comment: ! 'Covers: 发出. Cost: 6.0738581146744415e-3'
+- chinese: 他害怕得声音发抖。
+  english:
+  - His voice shook with fear.
+  type: chinese
+  comment: ! 'Covers: 发抖. Cost: 6.0738581146744415e-3'
+- chinese: 他气得说不出话来了。
+  english:
+  - He was so angry he couldn't speak.
+  type: chinese
+  comment: ! 'Covers: 气. Cost: 8.407671159165622e-4'
 - chinese: 他和我力气一样大.
   english:
   - He's my equal in strength.
@@ -478,26 +468,16 @@
   - Your plan is very good, but mine is better.
   type: chinese
   comment: ! 'Covers: 可是. Cost: 3.658715059271184e-3'
-- chinese: 他害怕得声音发抖。
-  english:
-  - His voice shook with fear.
-  type: chinese
-  comment: ! 'Covers: 发抖. Cost: 6.0738581146744415e-3'
-- chinese: 她害怕得连话也说不出来。
-  english:
-  - She was so scared that she couldn't speak.
-  type: chinese
-  comment: ! 'Covers: 说不出. Cost: 5.286250462546916e-3'
-- chinese: 他们爆发出一阵笑声。
-  english:
-  - They burst into a spasm of laughter.
-  type: chinese
-  comment: ! 'Covers: 笑声. Cost: 6.724949562878278e-2'
 - chinese: 他故意踩我的脚。
   english:
   - He stepped on my foot on purpose.
   type: chinese
   comment: ! 'Covers: 踩. Cost: 1.8604651162790697e-2'
+- chinese: 帮我看会儿孩子。
+  english:
+  - Keep an eye on the child for me for a moment.
+  type: chinese
+  comment: ! 'Covers: 儿. Cost: 1.055152838888713e-3'
 - chinese: 女孩变魔术一样地消失了。
   english:
   - The girl vanished like magic.
@@ -508,6 +488,11 @@
   - We just moved in.
   type: chinese
   comment: ! 'Covers: 搬. Cost: 4.792944785276074e-3'
+- chinese: 我要离开几天。
+  english:
+  - I am going away for a few days.
+  type: chinese
+  comment: ! 'Covers: 几天. Cost: 1.64774506088418e-3'
 - chinese: 第二天早上，我们都觉得很困。
   english:
   - We were very sleepy the next morning.
@@ -573,26 +558,11 @@
   - She loved me in the same way that I loved her.
   type: chinese
   comment: ! 'Covers: 像. Cost: 1.07789981999073e-3'
-- chinese: 清问，你在做什么？
-  english:
-  - Excuse me, what are you doing?
-  type: chinese
-  comment: ! 'Covers: 清. Cost: 1.6400164001640015e-3'
 - chinese: 火车向车站驶去。
   english:
   - The train headed for the station.
   type: chinese
   comment: ! 'Covers: 驶. Cost: 6.153846153846154e-2'
-- chinese: 系上鞋带。
-  english:
-  - Tie your shoelaces.
-  type: chinese
-  comment: ! 'Covers: 带. Cost: 0.0'
-- chinese: 他买了一双新鞋。
-  english:
-  - He bought a new pair of shoes.
-  type: chinese
-  comment: ! 'Covers: 鞋. Cost: 0.0'
 - chinese: 请叫她给我回个电话。
   english:
   - Please tell her to call me back.
@@ -604,11 +574,31 @@
   - What is the name of that river?
   type: chinese
   comment: ! 'Covers: 河. Cost: 2.681971785656815e-3'
+- chinese: 他们渴望返回家园.
+  english:
+  - They were pining to return home.
+  type: chinese
+  comment: ! 'Covers: 家园. Cost: 6.1996280223186616e-2'
 - chinese: 鸟会飞。
   english:
   - A bird can fly.
   type: chinese
   comment: ! 'Covers: 鸟. Cost: 1.261484237123715e-4'
+- chinese: 他买了一双新鞋。
+  english:
+  - He bought a new pair of shoes.
+  type: chinese
+  comment: ! 'Covers: 鞋. Cost: 0.0'
+- chinese: 你不该把这事告诉她。
+  english:
+  - You shouldn't have told her such a thing.
+  type: chinese
+  comment: ! 'Covers: 把. Cost: 5.47948207935386e-4'
+- chinese: 他把球扔了。
+  english:
+  - He threw the ball.
+  type: chinese
+  comment: ! 'Covers: 扔. Cost: 4.710981297404249e-3'
 - chinese: 她把画挂反了。
   english:
   - She hung the picture upside down.
@@ -619,6 +609,16 @@
   - Anyway, things are much better than before.
   type: chinese
   comment: ! 'Covers: 总. Cost: 2.487685954525101e-3'
+- chinese: 他们爆发出一阵笑声。
+  english:
+  - They burst into a spasm of laughter.
+  type: chinese
+  comment: ! 'Covers: 笑声. Cost: 6.724949562878278e-2'
+- chinese: 明天有许多要干的事情。
+  english:
+  - I have a lot of work to do tomorrow.
+  type: chinese
+  comment: ! 'Covers: 许多. Cost: 3.318841060701603e-3'
 - chinese: 当她看到他走过来的时候，她的脸亮了起来。
   english:
   - Her face lit up when she saw he was coming.
@@ -644,6 +644,11 @@
   - The sky today is the bluest that I've ever seen it.
   type: chinese
   comment: ! 'Covers: 天空. Cost: 2.083767451552407e-2'
+- chinese: 他们警告过这艘船这个危险。
+  english:
+  - They warned the ship about the danger.
+  type: chinese
+  comment: ! 'Covers: 艘. Cost: 1.625223468226881e-2'
 - chinese: 他抬头挺胸走路。
   english:
   - He was walking with his shoulders squared.
@@ -659,16 +664,11 @@
   - The boy began crying all of a sudden.
   type: chinese
   comment: ! 'Covers: 忽然. Cost: 8.798169980644026e-3'
-- chinese: 这个小男孩沿着草地的边上走，小心不踩到地里。
+- chinese: 她合上双唇，并告诉自己不要哭。
   english:
-  - The little boy walked along the grass verge, trying not to step into the field.
+  - She pressed her lips together and willed herself not to cry.
   type: chinese
-  comment: ! 'Covers: 草地. Cost: 6.6711140760507e-2'
-- chinese: 他们警告过这艘船这个危险。
-  english:
-  - They warned the ship about the danger.
-  type: chinese
-  comment: ! 'Covers: 艘. Cost: 1.625223468226881e-2'
+  comment: ! 'Covers: 合上. Cost: 7.00280112044818e-2'
 - chinese: 他结婚了，而且有三个孩子。
   english:
   - He's married and has three children.
@@ -684,16 +684,6 @@
   - I have a mountain of work to do.
   type: chinese
   comment: ! 'Covers: 堆. Cost: 1.1111481493827572e-3'
-- chinese: 明天有许多要干的事情。
-  english:
-  - I have a lot of work to do tomorrow.
-  type: chinese
-  comment: ! 'Covers: 许多. Cost: 3.318841060701603e-3'
-- chinese: 要收服务费吗?
-  english:
-  - Is there a service charge for that?
-  type: chinese
-  comment: ! 'Covers: 费. Cost: 1.4054813773717497e-2'
 - chinese: 那声音搅了我的美梦。
   english:
   - My sleep was disturbed by the sound.
@@ -704,26 +694,41 @@
   - The hind leg of this horse was broken.
   type: chinese
   comment: ! 'Covers: 断. Cost: 2.475860361475613e-2'
-- chinese: 规则就是用来打破的。
-  english:
-  - Rules are meant to be broken.
-  type: chinese
-  comment: ! 'Covers: 破的. Cost: 5.73394495412844e-2'
-- chinese: 你在你的被子下面藏了多少钱？
-  english:
-  - How much money do you have hidden under your bed?
-  type: chinese
-  comment: ! 'Covers: 被子. Cost: 8.896005693443645e-3'
-- chinese: 他留着劲在比赛结束时用。
-  english:
-  - He saved his strength for the end of the race.
-  type: chinese
-  comment: ! 'Covers: 劲. Cost: 3.618075907232534e-3'
 - chinese: 水结冻后，变成冰。
   english:
   - When water freezes it becomes ice.
   type: chinese
   comment: ! 'Covers: 冻. Cost: 2.120441051738762e-2'
+- chinese: 你在你的被子下面藏了多少钱？
+  english:
+  - How much money do you have hidden under your bed?
+  type: chinese
+  comment: ! 'Covers: 被子. Cost: 8.896005693443645e-3'
+- chinese: 不系保险带开车就太傻了。
+  english:
+  - It's silly to drive without fastening one's seat belt.
+  type: chinese
+  comment: ! 'Covers: 系. Cost: 1.9357336430507164e-2'
+- chinese: 他留着劲在比赛结束时用。
+  english:
+  - He saved his strength for the end of the race.
+  type: chinese
+  comment: ! 'Covers: 劲. Cost: 3.618075907232534e-3'
+- chinese: 正常的咨询费为50美元。
+  english:
+  - The standard charge for consultation be$50.
+  type: chinese
+  comment: ! 'Covers: 费. Cost: 5.938242280285036e-2'
+- chinese: 他难以说明她为什麽不见了.
+  english:
+  - He was hard put (to it) to explain her disappearance.
+  type: chinese
+  comment: ! 'Covers: 不见. Cost: 2.677376171352075e-2'
+- chinese: 她把她的意思解释得清清楚楚。
+  english:
+  - She made her meaning crystal clear.
+  type: chinese
+  comment: ! 'Covers: 清. Cost: 0.16051364365971107'
 - chinese: 那棵植物开着鲜艳的小紫花。
   english:
   - The plant has a brilliant purple floweret.
@@ -734,11 +739,6 @@
   - A breeze ruffled the surface of the lake.
   type: chinese
   comment: ! 'Covers: 微风. Cost: 0.20449897750511248'
-- chinese: 他难以说明她为什麽不见了.
-  english:
-  - He was hard put (to it) to explain her disappearance.
-  type: chinese
-  comment: ! 'Covers: 不见. Cost: 2.677376171352075e-2'
 - chinese: 虽然他很小心，但还是犯了个想不到的错误。
   english:
   - Careful as he was, he made an unexpected mistake.
@@ -749,11 +749,6 @@
   - She had plenty of acquaintances, but no friends.
   type: chinese
   comment: ! 'Covers: 却. Cost: 2.515280327992555e-3'
-- chinese: 那个店里没有合我尺寸的帽子。
-  english:
-  - There are no hats in that store that fit me.
-  type: chinese
-  comment: ! 'Covers: 合. Cost: 0.13262599469496023'
 - chinese: 部队恰恰在这时准备开进城去.
   english:
   - The troops are even now preparing to march into the city.
