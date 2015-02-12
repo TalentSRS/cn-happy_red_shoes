@@ -604,6 +604,16 @@
   - She hung the picture upside down.
   type: chinese
   comment: ! 'Covers: 挂. Cost: 1.937984496124031e-2'
+- chinese: 他难以说明她为什么不见了.
+  english:
+  - He was hard put (to it) to explain her disappearance.
+  type: chinese
+  comment: ! 'Covers: 不见. Cost: 2.677376171352075e-2'
+- chinese: 明天有许多要干的事情。
+  english:
+  - I have a lot of work to do tomorrow.
+  type: chinese
+  comment: ! 'Covers: 许多. Cost: 3.318841060701603e-3'
 - chinese: 现在我们总比过去好得多。
   english:
   - Anyway, things are much better than before.
@@ -614,11 +624,6 @@
   - They burst into a spasm of laughter.
   type: chinese
   comment: ! 'Covers: 笑声. Cost: 6.724949562878278e-2'
-- chinese: 明天有许多要干的事情。
-  english:
-  - I have a lot of work to do tomorrow.
-  type: chinese
-  comment: ! 'Covers: 许多. Cost: 3.318841060701603e-3'
 - chinese: 当她看到他走过来的时候，她的脸亮了起来。
   english:
   - Her face lit up when she saw he was coming.
@@ -704,6 +709,11 @@
   - How much money do you have hidden under your bed?
   type: chinese
   comment: ! 'Covers: 被子. Cost: 8.896005693443645e-3'
+- chinese: 正常的咨询费为50美元。
+  english:
+  - The standard charge for consultation be$50.
+  type: chinese
+  comment: ! 'Covers: 费. Cost: 5.938242280285036e-2'
 - chinese: 不系保险带开车就太傻了。
   english:
   - It's silly to drive without fastening one's seat belt.
@@ -714,31 +724,6 @@
   - He saved his strength for the end of the race.
   type: chinese
   comment: ! 'Covers: 劲. Cost: 3.618075907232534e-3'
-- chinese: 正常的咨询费为50美元。
-  english:
-  - The standard charge for consultation be$50.
-  type: chinese
-  comment: ! 'Covers: 费. Cost: 5.938242280285036e-2'
-- chinese: 他难以说明她为什麽不见了.
-  english:
-  - He was hard put (to it) to explain her disappearance.
-  type: chinese
-  comment: ! 'Covers: 不见. Cost: 2.677376171352075e-2'
-- chinese: 她把她的意思解释得清清楚楚。
-  english:
-  - She made her meaning crystal clear.
-  type: chinese
-  comment: ! 'Covers: 清. Cost: 0.16051364365971107'
-- chinese: 那棵植物开着鲜艳的小紫花。
-  english:
-  - The plant has a brilliant purple floweret.
-  type: chinese
-  comment: ! 'Covers: 鲜艳. Cost: 0.22675736961451246'
-- chinese: 一阵微风吹皱了湖面。
-  english:
-  - A breeze ruffled the surface of the lake.
-  type: chinese
-  comment: ! 'Covers: 微风. Cost: 0.20449897750511248'
 - chinese: 虽然他很小心，但还是犯了个想不到的错误。
   english:
   - Careful as he was, he made an unexpected mistake.
@@ -749,11 +734,6 @@
   - She had plenty of acquaintances, but no friends.
   type: chinese
   comment: ! 'Covers: 却. Cost: 2.515280327992555e-3'
-- chinese: 部队恰恰在这时准备开进城去.
-  english:
-  - The troops are even now preparing to march into the city.
-  type: chinese
-  comment: ! 'Covers: 这时. Cost: 0.1972386587771203'
 - chinese: 候选人在辩论中唇枪舌箭。
   english:
   - The candidates exchanged shafts in the debate.
